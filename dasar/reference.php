@@ -15,4 +15,17 @@ function increment(&$value){
 
 $counter =1;
 increment($counter);
-echo "Counter = $counter";
+echo "Counter = $counter".PHP_EOL;
+
+
+function &getValue(){
+    static $value = 100;
+    return $value;
+}
+
+$a = &getValue();
+echo "Value: $a".PHP_EOL;
+$a = 200;
+
+$b = &getValue();
+echo "Value: $b".PHP_EOL;

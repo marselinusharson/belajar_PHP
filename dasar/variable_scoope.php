@@ -43,6 +43,7 @@ Hanya dapat diakse dari dalam function tempat variable tersebut di buat
 
 /* static scoope
 hanya bisa diset di lokal variable
+nilai variable merupakan hasil dari eksekusi function sebelumnya
 
 */
 function increment(){

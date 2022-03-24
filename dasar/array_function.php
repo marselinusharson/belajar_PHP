@@ -18,4 +18,3 @@ $person =[
 
 var_dump(array_keys($person));
 var_dump(array_values($person));
-var_dump(array_values($person["firstName"]));

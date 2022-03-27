@@ -8,5 +8,5 @@ require_once __DIR__ . "/view/view-add-todolist.php";
 require_once __DIR__ . "/view/view-remove-todolist.php";
 require_once __DIR__ . "/helper/input.php"; 
 
-echo "Aplikasi Todolist".PHP_EOL;
+echo "=====================Aplikasi Todolist======================".PHP_EOL;
 viewShowTodoList();

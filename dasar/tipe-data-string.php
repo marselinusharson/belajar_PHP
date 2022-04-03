@@ -15,10 +15,10 @@ Selamat belajar php
 Ini teksnya multiline menggunakan
 "heredoc". dia bisa membuat string yang punya banyak 
 string dengan multiline
-MOMO
+MOMO;
 
-echo <<<'MOMO'
+echo <<< MOMO
 Ini merupakan string menggunakan
 Nowdoc. Mari belajar terus tentang bahasa PHP
-'MOMO'
+MOMO
 ?>
